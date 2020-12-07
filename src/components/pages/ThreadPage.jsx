@@ -34,10 +34,10 @@ const sortOptions = [
     text: "Date",
     value: "Date",
   },
-  {
-    text: "Points",
-    value: "Points",
-  },
+  // {
+  //   text: "Points",
+  //   value: "Points",
+  // },
 ];
 const compareKarma = (a, b) => {
   return a.karma - b.karma;
