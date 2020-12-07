@@ -20,7 +20,7 @@ def login():
                               Login.password == password).first()
 
     if user is None:
-        return jsonify({"errors": {"global": "Invalid credentials"}}), 501
+        return jsonify({"errors": {"message": "Invalid credentials"}}), 400
 
     token = encode_auth_token(username)
 
