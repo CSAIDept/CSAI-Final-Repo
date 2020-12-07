@@ -156,7 +156,7 @@ class ThreadPage extends Component {
         />
         <Segment loading={this.state.loading}>
           <Dropdown
-            defaultValue="Points"
+            defaultValue="Date"
             selection
             options={sortOptions}
             onChange={this.sortChange}
