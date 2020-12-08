@@ -53,6 +53,7 @@ class ThreadPage extends Component {
       sortby: "Points",
       ascending: false,
       //   editMode: false,
+      // trying to change
     };
     this.submit = this.submit.bind(this);
     // this.toggleEdit = this.toggleEdit.bind(this);
