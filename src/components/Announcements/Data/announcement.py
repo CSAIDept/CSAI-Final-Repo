@@ -42,4 +42,4 @@ def scrape():
 
 while True:
     scrape()
-    time.sleep(10)
+    time.sleep(300)
